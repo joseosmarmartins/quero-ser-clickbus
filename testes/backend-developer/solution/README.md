@@ -5,10 +5,10 @@ The project "com.jose.places" is my model project, in this project there is the 
 
 The project "com.jose.places.servlet" is the servlet, a project that provides the API to consumption, this API realizes the call on the methods on the model project.
 
-#How to run
+# How to run
 To run this project in the easiest way i just build a jar of the model project and add as a dependency on the servlet, so you just need to download or clone the servlet project and run with a tomcat 8 or higher, remember to check if the jar of the model is in your build path.
 
-#Examples
+# Examples
 As example of endpoints:
 
 - The method save:
@@ -120,7 +120,7 @@ As example of endpoints:
         ]
 ```
 
-#Testing Environment
+# Testing Environment
 There is a Testing Environment running in: http://138.197.129.20:8080/com.jose.places.servlet/v1/place/
 To use it just add the method you want, the correct call (POST, GET, etc) and the necessary parameters, as the given examples.
 
